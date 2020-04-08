@@ -1,6 +1,6 @@
 
 import boto3
-
+impot
 
 import fastparquet as fp
 s3 = s3fs.S3FileSystem()
