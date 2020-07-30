@@ -7,9 +7,6 @@ s3 = s3fs.S3FileSystem()
 fs = s3fs.core.S3FileSystem()
 
 client = boto3.client('s3')
-resource = boto3.resource('s3')
-
-
 
 
 def describe_numeric_1d(series: pd.Series) -> dict:
